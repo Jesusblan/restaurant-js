@@ -1,6 +1,7 @@
 import "./styles.css";
 import {homePresentation, homeImage} from "./home.js"
 import { menuHeader, menuItem1, menuItem2, menuItem3, menuItem4 } from "./menu.js";
+import { aboutTitle, aboutContent, contactTitle, contactInfo } from "./about.js";
 
 const container = document.querySelector("#content");
 
@@ -31,9 +32,13 @@ menuButton.addEventListener("click", () => {
 const aboutButton = document.querySelector("#about");
 aboutButton.addEventListener("click", ()=>{
     container.innerHTML = "";
+    container.setAttribute("id", "aboutContent");
+
+    container.appendChild(aboutTitle);
+    container.appendChild(aboutContent);
+    container.appendChild(contactTitle);
+    container.appendChild(contactInfo);
 });
-
-
 
 
 homeButton.click()

@@ -90,5 +90,17 @@ button{
         width: auto;
         height: 170px;
         border-radius: 12px;
+    }
 
+/*about section*/
+#aboutContent{
+    text-align: center;
+    justify-items: center;
+
+}
+    #aboutContent h2{
+        font-size: 2.5rem;
+    }
+    #aboutContent p{
+        width: 600px;
     }
