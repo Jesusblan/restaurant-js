@@ -44,11 +44,11 @@ menuItem3.classList.add("menuItem");
     itemPic3.classList.add("itemImg")
 menuItem3.appendChild(itemPic3);
     const itemTitle3 = document.createElement("h2");
-    itemTitle3.innerHTML = "Simple Burger";
+    itemTitle3.innerHTML = "Cheese Bacon";
 menuItem3.appendChild(itemTitle3);
 
     const itemInfo3 = document.createElement("p");
-    itemInfo3.innerHTML = "The Simple Burger is the coolest burguer with tender meat and tasty cheese!";
+    itemInfo3.innerHTML = "The Cheese bacon is the coolest burguer with tender meat and tasty cheese!";
     menuItem3.appendChild(itemInfo3);
 
 //item4
@@ -60,11 +60,11 @@ menuItem4.classList.add("menuItem");
     itemPic4.classList.add("itemImg")
 menuItem4.appendChild(itemPic4);
     const itemTitle4 = document.createElement("h2");
-    itemTitle4.innerHTML = "Simple Brguer";
+    itemTitle4.innerHTML = "Chicken Fried";
 menuItem4.appendChild(itemTitle4);
 
     const itemInfo4 = document.createElement("p");
-    itemInfo4.innerHTML = "The Simple Burger is the coolest burguer with tender meat and tasty cheese!";
+    itemInfo4.innerHTML = "The Chicken Fried is the coolest burguer with tender meat and tasty cheese!";
     menuItem4.appendChild(itemInfo4);
 
 export {menuHeader, menuItem1, menuItem2, menuItem3, menuItem4};
