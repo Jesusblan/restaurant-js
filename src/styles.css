@@ -94,6 +94,7 @@ button{
 
 /*about section*/
 #aboutContent{
+    width: 1100px;
     text-align: center;
     justify-items: center;
 
