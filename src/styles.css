@@ -70,5 +70,25 @@ button{
         font-style: italic;
     }
     .menuItem{
-        
+        background-color: rgb(247, 30, 30);
+        margin: 15px;
+        border-radius: 30px;
+        align-items: center;
+        justify-items: center;
+        text-align: center;
+
+        display: grid;
+        grid-template-columns: 1.5fr 1.2fr;
+        grid-template-rows: repeat(2, 1fr);
+
+    }
+        .menuItem h2{
+            font-style: italic;
+        }
+    .itemImg{
+        grid-row: 1/3;
+        width: auto;
+        height: 170px;
+        border-radius: 12px;
+
     }
