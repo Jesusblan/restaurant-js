@@ -12,7 +12,7 @@ menuItem1.classList.add("menuItem");
     itemPic1.classList.add("itemImg")
 menuItem1.appendChild(itemPic1);
     const itemTitle1 = document.createElement("h2");
-    itemTitle1.innerHTML = "Simple Burger";
+    itemTitle1.innerHTML = "Simple Burger<br>9,95€";
 menuItem1.appendChild(itemTitle1);
 
     const itemInfo1 = document.createElement("p");
@@ -28,7 +28,7 @@ menuItem2.classList.add("menuItem");
     itemPic2.classList.add("itemImg")
 menuItem2.appendChild(itemPic2);
     const itemTitle2 = document.createElement("h2");
-    itemTitle2.innerHTML = "Egg Burger";
+    itemTitle2.innerHTML = "Egg Burger<br>11,95€";
 menuItem2.appendChild(itemTitle2);
 
     const itemInfo2 = document.createElement("p");
@@ -44,7 +44,7 @@ menuItem3.classList.add("menuItem");
     itemPic3.classList.add("itemImg")
 menuItem3.appendChild(itemPic3);
     const itemTitle3 = document.createElement("h2");
-    itemTitle3.innerHTML = "Cheese Bacon";
+    itemTitle3.innerHTML = "Cheese Bacon<br>14,95€";
 menuItem3.appendChild(itemTitle3);
 
     const itemInfo3 = document.createElement("p");
@@ -60,7 +60,7 @@ menuItem4.classList.add("menuItem");
     itemPic4.classList.add("itemImg")
 menuItem4.appendChild(itemPic4);
     const itemTitle4 = document.createElement("h2");
-    itemTitle4.innerHTML = "Chicken Fried";
+    itemTitle4.innerHTML = "Chicken Fried<br>12,95€";
 menuItem4.appendChild(itemTitle4);
 
     const itemInfo4 = document.createElement("p");
